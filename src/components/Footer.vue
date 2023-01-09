@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col">
                 <p>Copyright &copy; 2023</p>
@@ -20,3 +20,9 @@
         name: 'FooterVue'
     }
 </script>
+<style scoped>
+    .container-fluid{
+        background-color: azure;
+        /* width: 100%; */
+    }
+</style>
